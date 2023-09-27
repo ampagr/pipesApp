@@ -10,6 +10,7 @@ import { PrimeNgModule } from '../prime-ng/prime-ng.module';
 import { ProductsRoutingModule } from './products-routing.module';
 
 import { CanFlyPipe } from './pipes/can-fly.pipe';
+import { ColorPipe } from './pipes/color.pipe';
 import { SortByPipe } from './pipes/sort-by.pipe';
 import { ToggleCasePipe } from './pipes/toggle-case.pipe';
 
@@ -24,6 +25,7 @@ import { ToggleCasePipe } from './pipes/toggle-case.pipe';
 
     //Pipes
     CanFlyPipe,
+    ColorPipe,
     SortByPipe,
     ToggleCasePipe,
   ],
